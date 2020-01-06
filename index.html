@@ -5,31 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');</style>
 </head>
 <body>
-    <h1>Main header</h1>
-    <h2>Secondary header</h2>
-    <h2 id="heading2">Secondary header but styled differently</h2>
-    <h3>Tertiary header</h3>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-        <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-    <p><a href="https://en.wikipedia.org/wiki/Soap">Some fun facts about soap.</a> Just in case.</p>
-    <p>Maybe also a link to <a href="http://time.is" target="_blank" rel="noopener">time.is</a>.</p>
+    <div id="body-wrapper">
+    <h1>Davey Blackstock</h1>
+    <h2>Table of Contents</h2>
     <ol>
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
+        <li><a href="#preface">Preface</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <ol>
+            <li><a href="#name">My Name</a></li>
+            <li><a href="#aim">My Aim</a></li>
+        </ol>
+        <li><a href="#life">Previous Life</a></li>
+        <ol>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#employment">Employment</a></li>
+        </ol>
+        <li><a href="#projects">Current Projects</a></li>
     </ol>
-
+    <h2 id="preface">Preface</h2>
+    <p>The Cambridge English dictionary defines a preface as <a href="https://dictionary.cambridge.org/dictionary/english/preface"><i>"an introduction as the beginning of a book explaining its purpose, thanking people who helped the author, etc."</i></a>.</p>
+    <p>This isn't a book, but if there's an equivalent word for websites other than 'introduction' (which is a boring word for what this is) I don't know it.</p>
+    <h2 id="introduction">Introduction</h2>
+    <h3 id="name">My Name</h3>
+    <p>As mentioned above, I'm Davey Blackstock. Hopefully this should make things clear on the offchance that you assumed that 'Davey Blackstock' was a term similar to 'Preface'. Worry not it is simply my name.</p>
+    <p>Names are at the same time both simple and incredibly complicated. Simple things about names:
+        <ul>
+            <li>They're different for every person so you can tell people apart.</li>
+            <li>A name helps you refer back to a person you met a long time ago.</li>
+        </ul>
+    </p>
+    <p>
+        There are also a lot of complicated things about names which in normal day-to-day life it's best to overlook for fear of being overwhelmed:
+        <ul>
+            <li>Multiple people can and do have the same names.</li>
+            <li>Names are a contract between the named person, the person referring to the named individual and wider society (including institutions such as the government, who takes pride in recording peoples names).</li>
+            <li>Names can and do change! The most typical example of this is surnames changing as part of marriage, but there are many more examples of name changes.</li>
+            <li>Names vary so much worldwide. Some cultures will use many middle names, or refer to individuals by their family name instead of their individual name, and many more examples.</li>
+        </ul>
+    </p>
+    <h3 id="aim">My Aim</h3>
+    <p>As you spend time here I am confident that you will understand more about me. Only you can fulfil this, as I do not pretend to be able to force comphension on whoever reads this webpage.</p>
+    <h2 id="life">Previous Life</h2>
+    <div class ="mult-columns">
+    <h3 id="education">Education</h3>
+    <p>Education is incredibly important. The 2018 UNESCO Institute for Statistics (UIS) <a link="http://uis.unesco.org/sites/default/files/documents/fs48-one-five-children-adolescents-youth-out-school-2018-en.pdf">data</a> showed that one in five children, adolescents and youth are out of school. I'm very lucky, then, to have had the opportunity to be educated. Below is some of my education.</p>
     <ul>
-        <li>a</li>
-        <li>b</li>
+        <li>University</li>
+        <ul>
+            <li>Physics degree</li>
+        </ul>
+        <li>College</li>
+        <ul>
+            <li>A-levels</li>
+            <li>AS-levels</li>
+        </ul>
+        <li>Secondary School</li>
+        <ul>
+            <li>GCSEs</li>
+        </ul>
     </ul>
-
-    <img src="./img/screenshot.png" alt="a screenshot of some kind" width="10">
-    <script src="js/main.js"></script>
-
+</div>
+<div class="mult-columns">
+    <img src="./images/lemons.jpg" alt="some lemon slices" width=48%>
+<p><i> Photo by Sarah Gualtieri on Unsplash</i></p>
+</div>
+    <h3 id="employment">Employment</h3>
+    <p>I have been employed in multiple highly-regarded software houses.</p>
+    <ul>
+        <li>EMIS Health 2018-current</li>
+        <li>CDL 2015-2018</li>
+    </ul>
+    <h2>Current Projects</h2>
+    <p>I am currently working on several projects.</p>
+    <div class="mult-columns">
+        <h3>Card Statistics Comparison Game</h3>
+    <p><a href="http://www.toptrumps.com/">Top Trumps</a> is a popular card game played between two people, in which cards are compared to one another with the better card winning.</p> 
+<p>I've created a Javascript game that is definitely different to the Top Trumps format but which may be oddly familiar to those who are <i>au fait</i> with the existing card game.</p>
+</div>
+<div class="mult-columns">    
+<h3 id="projects">This Website</h3>
+    <p>This website is also a project! Don't worry about any rough edges, they will all be sanded down in the fullness of time.</p>
+</div>
+</div>
 </body>
 </html>

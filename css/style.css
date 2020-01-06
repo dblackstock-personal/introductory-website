@@ -1,3 +1,21 @@
-h1 {
-    color: blueviolet;
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+#body-wrapper{
+    background: linear-gradient(#fff8d5,#ffeed5,#f8ffd5);
+    overflow:auto;
+    padding: 1%;
+    border: solid;
+}
+
+h1{
+    text-align:center;
+}
+
+.mult-columns {
+    width: 48%;
+    float: left;
+    box-sizing: content-box;
+padding: 1%;
 }
